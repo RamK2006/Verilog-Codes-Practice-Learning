@@ -1,0 +1,27 @@
+Modelling techniques — the big picture
+Ye tumhare Module II aur Module III ka central topic hai.
+
+Verilog supports different modelling styles for describing the same digital hardware.
+Levels of abstraction
+1. Gate-level modelling
+
+Describes hardware using logic gate primitives and their interconnections.
+
+2. Dataflow modelling
+
+Describes relationships between inputs and outputs using Boolean expressions and continuous assignments.
+
+3. Behavioural modelling
+
+Describes what a circuit does using procedural statements such as always, if, case and loops.
+
+4. RTL modelling
+
+Register Transfer Level describes how data moves between registers and how combinational logic processes that data.
+
+
+Structural modelling is based on connecting instantiated gates and modules into a hardware structure. Gate-level modelling is one form of structural modelling.
+
+
+
+One distinction: Switch-level modelling also exists in Verilog, using transistor and switch primitives.
