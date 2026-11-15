@@ -1,0 +1,26 @@
+Operators — introduction
+Operators perform operations on signals and values.
+
+In Verilog, the following categories are important:
+
+| Category | Operators | Purpose |
+|---|---|---|
+| Arithmetic | + - * / % | Arithmetic calculations |
+| Relational | < <= > >= | Compare magnitude |
+| Equality | == != === !== | Compare values |
+| Logical | && || ! | Logical operations |
+| Bitwise | & | ~ ^ ^~ | Operate bit by bit |
+| Reduction | & ~& | ~| ^ ~^ | Reduce vector to one bit |
+| Shift | << >> <<< >>> | Shift bits |
+| Conditional | ?: | Conditional selection |
+| Concatenation | {} | Combine bit vectors |
+
+Ek important distinction:
+- & = bitwise AND.
+- && = logical AND.
+Similarly:
+- | = bitwise OR.
+- || = logical OR.
+Aur:
+- == = logical equality comparison.
+- === = case equality comparison, which also checks X and Z values.
