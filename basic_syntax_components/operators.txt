@@ -34,4 +34,9 @@ Isme generally one by one steps execute hote hai
 Non-Blocking (<=):
 isme sb ek sath execute hote hai steps, upr niche likhe hone se frk nai pdta
 
-
+Three assignments you must distinguish
+Abhi se inko alag rakhna.
+Statement	        Where used	                        Meaning
+assign	    Outside procedural blocks   	Continuous assignment
+=	        Inside procedural blocks    	Blocking assignment
+<=	        Inside procedural blocks    	Non-blocking assignment
