@@ -24,3 +24,14 @@ Similarly:
 Aur:
 - == = logical equality comparison.
 - === = case equality comparison, which also checks X and Z values.
+
+
+Blocking and Non-Blocking Assignments:
+
+Blocking : (=)
+Isme generally one by one steps execute hote hai
+
+Non-Blocking (<=):
+isme sb ek sath execute hote hai steps, upr niche likhe hone se frk nai pdta
+
+
