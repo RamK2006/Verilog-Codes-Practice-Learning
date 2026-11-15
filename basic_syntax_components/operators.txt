@@ -40,3 +40,21 @@ Statement	        Where used	                        Meaning
 assign	    Outside procedural blocks   	Continuous assignment
 =	        Inside procedural blocks    	Blocking assignment
 <=	        Inside procedural blocks    	Non-blocking assignment
+
+
+
+Verilog operator precedence table
+Highest precedence at the top, lowest at the bottom.
+Priority	        Operators	                    Category
+1	        + - ! ~ & ~& \| ~\| ^ ~^ ^~	                Unary
+2	        * / %	                                Multiplicative
+3	        + -	                                    Additive
+4	        << >> <<< >>>	                           Shift
+5	        < <= > >=	                              Relational
+6	        == != === !==	                           Equality
+7	        &	                                     Bitwise AND
+8	        ^ ~^ ^~	                                Bitwise XOR/XNOR
+9	        \|	                                        Bitwise OR
+10	        &&	                                    Logical AND
+11	        \|\|	                                Logical OR
+12	        ?:	                                    Conditional
